@@ -1,0 +1,350 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --red: #f15e5e;
+}
+
+.toast-message {
+    font-size: 1.4rem;
+}
+
+.navbar {
+    width: 200px;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    top: 0;
+    left: 0;
+    transition: left 0.3s ease;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    width: 100%;
+    color: white;
+    border-bottom: 1px solid #444;
+}
+
+.navbar a i {
+    margin-right: 1rem;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 2.4rem;
+    position: fixed;
+    top: 1.5rem;
+    left: 1.5rem;
+    cursor: pointer;
+    color: #333;
+    z-index: 1000;
+    transition: left 0.3s ease;
+}
+
+.menu-toggle i {
+    display: none;
+    background-color: #4caf50;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#menuToggle i {
+    background-color: #dddd !important;
+}
+
+#mainNav .dropdown ul {
+    width: 100%;
+    background-color: #333;
+}
+
+table th {
+    font-size: 1.6rem;
+}
+
+/* Wrapper Css Starts Here */
+#wrapper {
+    width: 85%;
+}
+
+#wrapper svg.fsize-2rem {
+    height: 2rem;
+}
+
+#wrapper svg {
+    height: 4rem;
+}
+
+#wrapper input,
+#wrapper textarea {
+    padding: 1rem;
+}
+
+#wrapper .card .card-header h4 {
+    font-size: 2.6rem;
+}
+
+#wrapper .card .card-footer button {
+    font-size: 1.4rem;
+}
+
+#wrapper .breadcrumb {
+    height: 5rem;
+    width: 100%;
+}
+
+#wrapper .breadcrumb h2 {
+    font-size: 3rem;
+}
+
+#wrapper .col-md-12 h3 {
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+#wrapper .col-md-12 h4 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+#wrapper .cnct .card-body {
+    overflow: auto;
+}
+
+#wrapper .cnct .card-body input {
+    width: 45%;
+    font-size: 2rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+#wrapper .cnct .card-body textarea {
+    height: 6rem;
+    width: 50%;
+    resize: none;
+    font-size: 1.6rem;
+}
+
+#wrapper .cnct .card-body textarea.hund {
+    height: 10rem;
+    width: 100%;
+}
+
+#wrapper table tbody th a {
+    text-decoration: none;
+}
+
+#wrapper table tbody th a button {
+    font-size: 1.2rem;
+}
+
+#wrapper table .afafaefea {
+    background-color: red;
+    color: #fff;
+    width: 7rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+}
+
+#wrapper .card .afearferea input {
+    height: 2.5rem;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border: 0.1rem solid #252525;
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+#wrapper .card .afearferea button {
+    height: 2.5rem;
+    display: contents;
+    font-size: 1.9rem;
+}
+
+/* Dahsboard Page Css Starts Here */
+
+#wrapper .card .col-md-4 i {
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.6rem;
+}
+
+#wrapper iframe {
+    height: 35em;
+    width: 100%;
+}
+
+#wrapper .card .col-md-12 input.searchBooking {
+    outline: none;
+    height: 1.2em;
+    width: 25%;
+    font-size: 1.4em;
+}
+
+table.soldTable th {
+    text-align: center;
+}
+
+/* Dahsboard Page Css Ends Here */
+
+.modal.fade h5.modal-title {
+    font-size: 2rem;
+}
+
+.modal.fade .modal-body .col-md-12,
+.modal.fade .modal-body .col-md-6 {
+    margin: 0.6rem 0;
+}
+
+.modal.fade .modal-body label {
+    font-size: 1.4em;
+}
+
+.modal.fade .modal-body input,
+.modal.fade .modal-body select {
+    height: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.1rem solid #252525;
+    border-radius: 0.4rem;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.modal.fade .modal-body textarea {
+    height: 5;
+    width: 100%;
+    padding: 0.5rem;
+    border: 0.1rem solid #252525;
+    border-radius: 0.4rem;
+    outline: none;
+    resize: none;
+    font-size: 1.5rem;
+}
+
+/* Map Page Css Starts Here */
+
+#wrapper .row.map .card .card-body h5 {
+    font-size: 2rem;
+}
+
+#wrapper .row.map .card .card-body textarea {
+    height: 14rem;
+    width: 100%;
+    resize: none;
+    font-size: 1.6rem;
+    border-radius: 0.4rem;
+}
+
+/* Map Page Css Ends Here */
+
+/* Wrapper Css Ends Here */
+
+#deleteProductModal .modal-content.afeareatg {
+    background-color: transparent;
+}
+
+#confirmation .box {
+    height: 35rem;
+    width: 45rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem #6b6767;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+
+#confirmation .box .cross .closeCross {
+    font-size: 3rem;
+    margin: 0.5rem 0.8rem;
+    cursor: pointer;
+}
+
+#confirmation .box .upper .mainCross {
+    font-size: 4rem;
+    height: 8rem;
+    width: 8rem;
+    margin: 1rem 18.2rem 3rem 18.2rem;
+    color: var(--red);
+    border: 0.2rem solid var(--red);
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+#confirmation .box .upper h2 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+#confirmation .box .text h6 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 1rem 5rem;
+}
+
+#confirmation .box .buttons button {
+    font-size: 1.4rem;
+}
+
+#confirmation .box .buttons button.cancel {
+    height: 3.6rem;
+    width: 10rem;
+    color: #fff;
+    background-color: gray;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+#confirmation .box .buttons button.delete {
+    height: 3.6rem;
+    width: 10rem;
+    color: #fff;
+    background-color: var(--red);
+    border: none;
+    border-radius: 0.2rem;
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.modal.fade.show .modal-dialog,
+.modal.fade.show .modal-content.afaeaetgarsg {
+    background: transparent !important;
+}
+
+/* City & Area Css Starts Here */
+.areaInput {
+    width: 100%;
+    outline: none;
+    padding: 0;
+}
+/* City & Area Css Ends Here */

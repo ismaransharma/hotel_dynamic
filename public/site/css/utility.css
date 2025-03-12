@@ -1,0 +1,53 @@
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.border {
+    border: 0.1rem solid #000;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tar {
+    text-align: right;
+}
+
+.btnAll {
+    height: 5rem;
+    width: 20rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: var(--header-bg);
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.noBgclr {
+    background-color: #fff !important;
+}
+
+.l-4 {
+    left: 4rem;
+}
+
+.toast {
+    font-size: 1.3em;
+}

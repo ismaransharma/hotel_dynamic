@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+    .navbar {
+        left: -200px;
+    }
+
+    #menuToggle {
+        left: 90%;
+    }
+
+    .menu-toggle {
+        display: block;
+        height: 3.5rem;
+        width: 3rem;
+        background-color: #252525;
+        color: #fff;
+        border-radius: 0.5rem;
+        text-align: center;
+    }
+
+    .menu-toggle i {
+        display: block;
+    }
+
+    #dashboard .card-body .col-md-4 {
+        width: 10%;
+    }
+
+    #dashboard .card-body .col-md-8 {
+        width: 80%;
+    }
+
+    #wrapper {
+        width: 100% !important;
+    }
+
+    #wrapper .container-fluid {
+        padding: 1rem;
+    }
+
+    #wrapper .cnct .card-body input,
+    #wrapper .cnct .card-body textarea {
+        width: 100% !important;
+    }
+
+    #wrapper .cnct .card-body img {
+        height: 15rem;
+        width: 15rem;
+        object-fit: contain;
+    }
+
+    .card .card-body {
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .card .card-body {
+        overflow: scroll;
+    }
+}
+
+.container-fluid {
+    margin-left: 200px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .container-fluid {
+        margin-left: 0;
+    }
+
+    .card .card-body {
+        overflow: scroll;
+    }
+}

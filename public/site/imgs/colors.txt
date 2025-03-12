@@ -1,0 +1,4 @@
+NavBg : #201c1c ;
+Our Rooms Bg: #f2f2f2 ;
+Lil Red: #971d02 ;
+skin Tone: #c4a25a ;

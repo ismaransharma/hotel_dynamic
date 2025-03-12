@@ -1,0 +1,387 @@
+@media (max-width: 600px) {
+  #topHeader {
+    display: none;
+  }
+
+  #navbar {
+    padding: 0;
+  }
+
+  #navbar nav {
+    background-color: var(--nav-bg);
+  }
+
+  #navbar nav button.navbar-toggler {
+    margin: 0 2rem;
+  }
+
+  #hero {
+    height: 40rem;
+  }
+
+  #hero .carousel-inner {
+    height: 35rem;
+  }
+
+  #hero .carousel-inner img {
+    height: 100%;
+  }
+
+  #hero .texts h2 {
+    font-size: 6vw;
+  }
+
+  #hero .texts h4 {
+    font-size: 4vw;
+  }
+
+  #hero a.carousel-control-prev,
+  #hero a.carousel-control-next {
+    top: 20%;
+  }
+
+  #OurRooms .cnct .card {
+    margin: 1.4rem auto;
+  }
+
+  #aboutUs .image {
+    display: none;
+  }
+
+  #reviews .boxCenter .cnct h4 {
+    width: 100%;
+    margin: 0;
+  }
+
+  #reviews .boxCenter .cnct h2 {
+    margin: 1rem 0 1 0;
+  }
+
+  #gallery {
+    height: auto;
+  }
+
+  #weOffer {
+    height: auto;
+  }
+
+  #weOffer .image {
+    text-align: center;
+  }
+
+  #weOffer .image img {
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 0 1rem 0;
+  }
+
+  #weOffer .col-md-6 .cnct {
+    text-align: center;
+  }
+
+  #ourAchievements {
+    height: auto;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  #contact .row .col-md-4 .box {
+    margin: 1rem auto;
+  }
+
+  #breadcrumb h2 {
+    font-size: 4rem;
+  }
+
+  #roomDetails {
+    height: auto;
+  }
+
+  #roomDetails .left .image {
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #roomDetails .left .image img {
+    height: 22rem;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep .agrag.l-4 {
+    left: 0;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep input {
+    width: 100%;
+  }
+
+  #roomDetails .right .cnct .inpt .mmbr input {
+    width: 100%;
+  }
+
+  #roomDetails .right .cnct .details input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+  #topHeader {
+    display: none;
+  }
+
+  #navbar {
+    padding: 0;
+  }
+
+  #navbar nav {
+    background-color: var(--nav-bg);
+  }
+
+  #navbar nav button.navbar-toggler {
+    margin: 0 2rem;
+  }
+
+  #hero {
+    height: 40rem;
+  }
+
+  #hero .carousel-inner {
+    height: 35rem;
+  }
+
+  #hero .carousel-item img {
+    height: 100%;
+  }
+
+  #hero .texts h2 {
+    width: 51rem;
+    font-size: 2.6rem;
+  }
+
+  #hero .texts h4 {
+    width: 26rem;
+    font-size: 2.6rem;
+  }
+
+  #aboutUs .col-md-6.right .image img {
+    margin: 0 3rem;
+  }
+
+  #reviews .boxCenter .cnct h4 {
+    width: 100%;
+    margin: 0;
+  }
+
+  #gallery,
+  #weOffer,
+  #ourAchievements,
+  #contact {
+    height: auto;
+  }
+
+  #weOffer .col-md-6 .cnct {
+    text-align: center;
+  }
+
+  #weOffer .cnct .row .col-md-6 {
+    width: 50%;
+  }
+
+  #contact .row .col-md-4 .box {
+    margin: 1.4rem auto;
+  }
+
+  #OurRooms .cnct .card {
+    width: 37rem;
+    margin: 1.4rem auto;
+  }
+
+  #aboutUs .image {
+    display: none;
+  }
+
+  #reviews .boxCenter .cnct h4 {
+    width: 100%;
+    margin: 0;
+  }
+
+  #reviews .boxCenter .cnct h2 {
+    margin: 1rem 0 1 0;
+  }
+
+  #gallery {
+    height: auto;
+  }
+
+  #weOffer {
+    height: auto;
+  }
+
+  #weOffer .image {
+    text-align: center;
+  }
+
+  #weOffer .image img {
+    height: auto !important;
+    width: 35rem !important;
+    margin: 0 0 1rem 0;
+  }
+
+  #weOffer .col-md-6 .cnct {
+    text-align: center;
+  }
+
+  #ourAchievements {
+    height: auto;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  #contact .row .col-md-4 .box {
+    margin: 1rem auto;
+  }
+
+  #breadcrumb h2 {
+    font-size: 5rem;
+  }
+
+  #roomDetails {
+    height: auto;
+  }
+
+  #roomDetails .left .image {
+    text-align: center;
+  }
+
+  #roomDetails .left .image img {
+    height: 24rem;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep .agrag.l-4 {
+    left: 0;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep input {
+    width: 114%;
+  }
+
+  #roomDetails .right .cnct .inpt .mmbr input,
+  #roomDetails .right .cnct .details input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #topHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #topHeader .col-md-6 .location,
+  #topHeader .col-md-6 .phone {
+    font-size: 1.2rem !important;
+    font-weight: 500;
+  }
+
+  #navbar {
+    padding: 0;
+  }
+
+  #navbar nav {
+    background-color: var(--nav-bg);
+  }
+
+  #navbar nav button.navbar-toggler {
+    margin: 0 2rem;
+  }
+
+  #aboutUs {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #aboutUs .col-md-6.right img {
+    height: 26rem !important;
+    width: 41rem !important;
+    margin: 0 !important;
+  }
+
+  #reviews .boxCenter .cnct h4 {
+    margin: 0 11rem;
+  }
+
+  #weOffer {
+    height: auto;
+  }
+
+  #weOffer .col-md-6 .image img {
+    height: 40rem;
+    width: 34rem;
+  }
+
+  #weOffer .col-md-6 .cnct .row {
+    text-align: center;
+  }
+
+  #weOffer .col-md-6 .cnct .row .col-md-6 {
+    width: 13rem;
+  }
+
+  #contact .col-md-4 .box {
+    height: 20rem;
+    width: 21rem;
+  }
+
+  #roomDetails {
+    height: auto;
+  }
+
+  #roomDetails .col-md-6.left .image {
+    overflow: hidden;
+  }
+
+  #roomDetails .col-md-6.left .image img {
+    height: 24rem;
+  }
+
+  #roomDetails .col-md-6.right .cnct .col-md-6 {
+    width: 75%;
+  }
+
+  #roomDetails .col-md-6.right .cnct .col-md-6.l-4 {
+    left: 0;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep .agrag,
+  #roomDetails .right .cnct .inpt .mmbr .ahuigrera {
+    width: 49%;
+  }
+
+  #roomDetails .right .cnct .inpt .arrDep input {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #topHeader .col-md-6.left .location,
+  #topHeader .col-md-6.left .phone {
+    font-size: 1.7rem;
+  }
+
+  #aboutUs .col-md-6.right .image {
+    overflow: hidden;
+  }
+
+  #weOffer .col-md-6 .image img {
+    height: 40rem;
+    width: 40rem;
+  }
+
+  #roomDetails .col-md-6.left .image {
+    overflow: hidden;
+  }
+}
